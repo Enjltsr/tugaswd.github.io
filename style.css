@@ -1,0 +1,63 @@
+@font-face {
+  font-family: ny;
+  src: url(Ny.otf);
+}
+@font-face {
+  font-family: tm;
+  src: url(bread.ttf);
+}
+
+.navbar {
+  font-family: "ny";
+  background: repeating-radial-gradient(#e4a7c5, #6d51a5);
+}
+
+h1,
+h2,
+h3,
+footer {
+  font-family: "ny";
+}
+
+p {
+  text-align: justify;
+}
+
+.list {
+  font-family: "tm";
+  font-size: 32px;
+}
+
+table {
+  font-family: "tm";
+  font-size: 24px;
+}
+
+.jumbotron {
+  padding-top: 3cm;
+  background: linear-gradient(#e4a7c5, #d099c0);
+}
+section {
+  padding-top: 5rem;
+  padding-bottom: 5rem;
+}
+
+#about {
+  background: linear-gradient(#d099c0, #bc8aba);
+}
+
+#skill {
+  background: linear-gradient(#bc8aba, #a97cb5);
+}
+
+#aktivitas {
+  background: linear-gradient(#a97cb5, #956eb0);
+}
+
+#certificate {
+  background: linear-gradient(#956eb0, #815faa);
+}
+
+footer {
+  background: linear-gradient(#815faa, #6d51a5);
+}
